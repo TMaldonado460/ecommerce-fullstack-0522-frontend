@@ -18,14 +18,14 @@ export default class NavBarComp extends Component {
         src={cart}
         width="30"
         height="30"
-        className="d-inline-block align-top icon1"
+        className=" align-top icon1"
         alt="cart logo"
       />
       <img
         src= {user}
         width="30"
         height="30"
-        className="d-inline-block align-top icon2"
+        className=" align-top icon2"
         alt="cart logo"
       />
     </Navbar.Brand>

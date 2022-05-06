@@ -1,5 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Navbar from 'react-bootstrap/Navbar';
+import ListAll from './components/ListAll';
 
 
 import './App.css';
@@ -9,6 +9,7 @@ function App() {
   return (
     <div className="App">
       <NavBarComp></NavBarComp>
+      <ListAll></ListAll>
     </div>
   );
 }
