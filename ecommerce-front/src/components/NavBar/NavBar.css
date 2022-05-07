@@ -11,7 +11,7 @@
     --color-Lighter: #49EBCA;
     --color-contrast-1: #ED6A58;
     --color-contrast-2: #B80D1C;
-    --color-background: #49ebcb3d;
+    --color-background: #9bf7e4;
 }
 nav{
     background-color: var(--color-background);
@@ -20,6 +20,9 @@ nav{
     justify-content: space-between;
     align-items: center;
     font-family: Roboto;
+    position: sticky;
+    top: 0;
+    z-index: 15;
 }
 .icon-drop{
     color: var(--color-primary);
@@ -37,4 +40,25 @@ h3{
     margin-right: 5px;
     font-size: 20px;
     color: var(--color-primary);
+}
+
+.nav-menu{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    top: 45px;
+    left: -100%;
+    background-color: var(--color-background);
+    z-index: 10;
+    transition: all 0.5s;
+    opacity: 1;
+}
+.nav-menu.active{
+    opacity: 1;
+    left: 0;
+    background-color: var(--color-background);
+    transition: all 0.5s;
+    z-index: 10;
 }
