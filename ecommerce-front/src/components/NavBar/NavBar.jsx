@@ -22,7 +22,7 @@ export default function NavBar () {
                     <h3>Proyecto Vacaciones</h3>
                 </div>
                 <div>
-                    <FaCartArrowDown className="icons"/> <FaUserCircle className="icons"/>
+                    <FaCartArrowDown className="iconstop"/> <FaUserCircle className="iconstop"/>
                 </div>
             </nav>
     );

@@ -2,6 +2,7 @@ import products from "../../../src/products.json";
 import React, {Component} from "react";
 import CategoryProduct from '../Product/CategoryProduct';
 import NavBar from "../NavBar/NavBar";
+import ButtomBar from "../ButtomBar/ButtomBar";
 
 export default class ListAll extends Component {
     render() {
@@ -16,6 +17,7 @@ export default class ListAll extends Component {
                         </li>
                     </ul>
                 ))}
+                <ButtomBar/>
             </div>
         )
     }
