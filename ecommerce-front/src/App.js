@@ -1,15 +1,9 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
-import ListAll from './components/ListAll';
-
-
-import './App.css';
-import NavBarComp from './components/NavBarComp';
+import ListAll from "./components/Pages/ListAll";
 
 function App() {
   return (
-    <div className="App">
-      <NavBarComp></NavBarComp>
-      <ListAll></ListAll>
+    <div className="App">  
+       <ListAll/>   
     </div>
   );
 }

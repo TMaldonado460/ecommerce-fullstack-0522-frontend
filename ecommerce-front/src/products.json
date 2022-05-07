@@ -3,196 +3,196 @@
         "image": "https://essential.vteximg.com.br/arquivos/ids/520487-454-423/302-0702_1.jpg?v=637795668065970000",
         "name": "SHORT NIKE 3MO KNIT",
         "price": "$8.699",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property":["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/532743-454-423/302-0705_1.jpg?v=637828683493270000",
         "name": "SHORT NIKE TEMPO FEMME",
         "price": "$6.999",
-        "property": "MUJER - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/532336-454-423/302-0727_1.jpg?v=637828507413170000",
         "name": "REMERA NIKE RUN DIVISION",
         "price": "$7.499",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property":["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/533692-454-423/302-6259_1.jpg?v=637830259705700000",
         "name": "SHORT NIKE MESH",
         "price": "$6.000",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/543424-454-423/308-0339_1.jpg?v=637848429725770000",
         "name": "PELOTA NIKE PREMIER LEAGUE PITCH",
         "price": "$4.799",
-        "property": "UNISEX - Nike - Zapatilla",
+        "property":["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/547849-454-423/302-0724_1.jpg?v=637858782010930000",
         "name": "SHORT NIKE DRI FIT",
         "price": "$8.699",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/547877-454-423/302-6267_1.jpg?v=637858782186670000",
         "name": "SHORT NIKE SWOOSH RUN",
         "price": "$6.999",
-        "property": "MUJER - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/551809-454-423/316-0394_1.jpg?v=637867630026570000",
         "name": "ZAPATILLAS NIKE DOWNSHIFTER 11",
         "price": "$15.949",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/551819-454-423/316-6244_1.jpg?v=637867630073670000",
         "name": "ZAPATILLAS NIKE AIR ZOOM PEGASUS 38 SHIELD",
         "price": "$32.999",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property":["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/401734-454-423/304-5229_1.jpg?v=637460588634370000",
         "name": "PANTALON NIKE BARCELONA",
         "price": "$11.399",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/453216-454-423/316-0016_1.jpg?v=637626338069370000",
         "name": "ZAPATILLAS NIKE WMNS NIKE WINFLO 8",
         "price": "$21.999",
-        "property": "MUJER - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/456044-454-423/302-0470_1.jpg?v=637637251660330000",
         "name": "BUZO NIKE GET FIT",
         "price": "$10.999",
-        "property": "MUJER - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/457569-454-423/316-0079_1.jpg?v=637642812335870000",
         "name": "ZAPATILLAS NIKE DOWNSHIFTER 11",
         "price": "$14.499",
-        "property": "MUJER - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/460212-454-423/302-0494_1.jpg?v=637650550225730000",
         "name": "CAMPERA NIKE WINDRNNER",
         "price": "$22.499",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/461132-454-423/302-0506_1.jpg?v=637650774533530000",
         "name": "REMERA NIKE ESSENTIAL BOXY",
         "price": "$3.999",
-        "property": "MUJER - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/520570-454-423/316-0369_1.jpg?v=637795668487770000",
         "name": "ZAPATILLAS NIKE REVOLUTION 6",
         "price": "$14.999",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/531675-454-423/316-6245_1.jpg?v=637825105519670000",
         "name": "ZAPATILLAS NIKE TANJUN",
         "price": "$15.949",
-        "property": "MUJER - Nike - Zapatilla",
+        "property":["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/533818-454-423/307-0066_1.jpg?v=637830260365170000",
         "name": "MEDIAS NIKE EVERYDAY",
         "price": "$2.399",
-        "property": "UNISEX - Nike - Zapatilla",
+        "property":["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/533815-454-423/307-0048_1.jpg?v=637830260336000000",
         "name": "MEDIAS NIKE EVERYDAY PLUS",
         "price": "$2.300",
-        "property": " - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/458807-454-423/302-0484_1.jpg?v=637644686977330000",
         "name": "PANTALON NIKE BARCELONA",
         "price": "$14.499",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/458819-454-423/302-0487_1.jpg?v=637644687035900000",
         "name": "CAMPERA NIKE BARCELONA",
         "price": "$15.999",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/503432-454-423/316-0205_1.jpg?v=637741560676630000",
         "name": "ZAPATILLAS NIKE AIR MAX SC",
         "price": "$19.249",
-        "property": "MUJER - Nike - Zapatilla",
+        "property":["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/524392-454-423/302-6257_1.jpg?v=637804488556300000",
         "name": "CONJUNTO DEPORTIVO NIKE CR7",
         "price": "$15.999",
-        "property": "NIÑO - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/547881-454-423/302-6269_1.jpg?v=637858782208870000",
         "name": "REMERA NIKE DRI FIT",
         "price": "$6.999",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/551800-454-423/316-0393_1.jpg?v=637867629983230000",
         "name": "ZAPATILLAS NIKE DOWNSHIFTER 11",
         "price": "$15.949",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property":["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/520658-454-423/316-0298_1.jpg?v=637795668924470000",
         "name": "ZAPATILLAS NIKE AIR MAX GENOME",
         "price": "$37.399",
-        "property": "MUJER - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/515931-454-423/316-0328_1.jpg?v=637788885978130000",
         "name": "ZAPATILLAS NIKE REVOLUTION 6",
         "price": "$14.999",
-        "property": "MUJER - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     },
     {
         "image": "https://essential.vteximg.com.br/arquivos/ids/544181-454-423/316-0384_1.jpg?v=637850384394900000",
         "name": "ZAPATILLAS NIKE REVOLUTION 6",
         "price": "$14.999",
-        "property": "HOMBRE - Nike - Zapatilla",
+        "property": ["HOMBRE","Nike","Zapatilla"],
         "valoration": 4.5
     }
 ]
