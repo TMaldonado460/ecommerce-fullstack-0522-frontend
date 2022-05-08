@@ -10,7 +10,7 @@ const Home = () => {
     return (
         <div className="home">
             <NavBar/>
-            <p className='promo'>¡En 6,9 y 12 cuotas s/interes con Ahora12!</p>
+            <p className='promo'>¡En 6, 9 y 12 cuotas s/interes con Ahora12!</p>
             <Slideshow/>
             <div className='featured'>
                 <h2>Productos Destacados</h2>
