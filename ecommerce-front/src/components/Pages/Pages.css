@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 
 :root{
@@ -13,35 +14,29 @@
     --color-contrast-2: #B80D1C;
     --color-background: #9bf7e4;
 }
-nav{
-    background-color: var(--color-background);
-    height: 45px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    font-family: Roboto;
-    position: sticky;
-    top: 0;
-    z-index: 15;
-}
-.icon-drop{
+.listall{
     color: var(--color-primary);
-    font-size: 20px;
-    cursor: pointer;
-    margin-left: 5px;
 }
-h3{
-    font-size: 20px;
-    font-weight: 400;
-    margin-left: 25px;
-    color: var(--color-primary);
+.listall h1{
+    font-size: 40px;
+    font-weight: 500;
+    margin: 10px;
+}
+.home{
+    width: 100%;
+    overflow: hidden;
+}
+.promo{
+    background-color: var(--color-Lighter);
+    color: var(--color-dark);
+    font-size: 16px;
+    text-align: center;
 }
 .iconstop{
     margin-right: 10px;
     font-size: 20px;
     color: var(--color-primary);
 }
-
 .nav-menu{
     display: flex;
     flex-direction: column;
@@ -61,4 +56,32 @@ h3{
     background-color: var(--color-background);
     transition: all 0.5s;
     z-index: 10;
+}
+.path-Bar{
+    text-decoration: none;
+    padding: 5px;
+    color: var(--color-primary);
+    font-weight: 700;
+    cursor: pointer;
+}
+.icon{
+    font-size: 20px;
+}
+.heart{
+    color: 'red'; 
+    font-size: 35px;
+    cursor: 'pointer';
+    top: 10px;
+    right: 10px;
+    position: absolute;
+    color: var(--color-contrast-2);
+}
+.heart2{
+    color: 'red'; 
+    font-size: 20px;
+    cursor: 'pointer';
+    top: 5px;
+    right: 5px;
+    position: absolute;
+    color: var(--color-contrast-2);
 }

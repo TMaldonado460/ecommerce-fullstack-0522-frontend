@@ -1,10 +1,14 @@
-import ListAll from "./components/Pages/ListAll";
-
+import { BrowserRouter,Routes,Route} from 'react-router-dom';
+import Home from './components/Pages/Home';
+import ListAll from './components/Pages/ListAll';
 function App() {
   return (
-    <div className="App">  
-       <ListAll/>   
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/products" element={<ListAll/>} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
