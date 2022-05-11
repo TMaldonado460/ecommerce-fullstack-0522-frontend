@@ -20,7 +20,7 @@ const GenericProduct = (props) => {
 }
 const Container = styled.div`
     width: 190px;
-    margin: 0 calc(var(--padding-increment) * 5) 0 0 ;
+    margin: 0 calc(var(--padding-increment) * 5) calc(var(--padding-increment) * 15) 0;
     `;
 const ProductImg = styled.div`
     position: relative;
