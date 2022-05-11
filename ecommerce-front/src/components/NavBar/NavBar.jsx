@@ -86,7 +86,6 @@ const NavMenu = styled.ul`
     transition: all 0.5s;
     opacity: 1;
     padding-top: calc(var(--padding-increment) * 10);
-    gap: calc(var(--padding-increment) * 8) 0;
     &.active {
         opacity: 1;
         left: 0;
@@ -101,6 +100,7 @@ const NavMenu = styled.ul`
         color: var(--color-primary);
         font-weight: 700;
         cursor: pointer;
+        padding: 0 calc(var(--padding-increment) * 4);
     }
     > *:first-child {
         margin-top: calc(var(--padding-increment) * 4);
@@ -113,7 +113,7 @@ const NavMenu = styled.ul`
         background-color: rgba(0, 0, 0, 0.1);
         transition: all 0.5s;
         opacity: 1;
-        margin: 10px 0;
+        margin: calc(var(--padding-increment) * 5) 0;
     }
 
     `;

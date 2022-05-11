@@ -55,8 +55,8 @@ const Propiedades = styled.div`
 
 const Product = styled.div`
     font-family: Roboto;
-    max-width: 380px;
-    box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+    max-width: 100%;
+    box-shadow: 0 4px 5px rgb(0 0 100 / 20%);
     margin-bottom: calc(var(--padding-increment) * 5);
     `;
 const ProductImg = styled.div`
@@ -71,13 +71,13 @@ const Subtitulo = styled.h2`
         font-size: 35px;
         font-weight: 900;
         color: #1C82B8;
-        margin: 5px 0 0 5px;
         `;
 const Description = styled.p`
     font-size: 14px;
     font-weight: 500;
-    margin: 0 0 0 5px;
     text-align: left;
+    margin-top: calc(var(--padding-increment) * 6);
+    color: var(--color-dark);
     `;
 const Star = styled.div`
     color:#ED6A58;
