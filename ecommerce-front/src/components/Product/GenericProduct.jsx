@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {FaHeart,FaRegHeart} from "react-icons/fa";
+import Heart from "./Heart";
 import styled from "styled-components";
 
 const GenericProduct = (props) => {
@@ -11,9 +11,7 @@ const GenericProduct = (props) => {
         <Container>
             <ProductImg>
                 <img src={props.image} alt={props.name} />
-                <button onClick={handleClick}>
-                    {isFavorite ?<FaHeart className="heart2" /> : <FaRegHeart className="heart2" />}
-                </button>
+                <Heart isLiked={isFavorite} onClick={handleClick} />
             </ProductImg>
             <Name>{props.name}</Name>
             <Price>{props.price}</Price>
@@ -22,21 +20,23 @@ const GenericProduct = (props) => {
 }
 const Container = styled.div`
     width: 190px;
-    
+    margin: 0 calc(var(--padding-increment) * 5) 0 0 ;
     `;
 const ProductImg = styled.div`
     position: relative;
-    margin: 0 10px;
+    margin: 0;
     img{
         width: 100%;
     }
     `;
 const Name = styled.h3`
-    color: #1C82B8;
+    color: var(--color-primary);
+    padding: calc(var(--padding-increment) * 3) 0 var(--padding-increment) 0;
     font-size: 14px;
     `;
 const Price = styled.p`
-    color: #5D7987;
-    font-size: 14px;
+    color: var(--color-dark);
+    font-size: 20px;
+    font-weight: bold;
     `;
 export default GenericProduct;

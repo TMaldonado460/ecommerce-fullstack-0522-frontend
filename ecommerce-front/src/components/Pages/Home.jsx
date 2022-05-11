@@ -13,7 +13,7 @@ const Home = () => {
             <p className='promo'>¡En 6, 9 y 12 cuotas s/interes con Ahora12!</p>
             <Slideshow/>
             <div className='featured'>
-                <h2>Productos Destacados</h2>
+                <h3>Productos Destacados</h3>
                 <Ul type="none">
                     {products.map((product) => (
                     <li key={product.name}>
@@ -23,7 +23,7 @@ const Home = () => {
                 </Ul>
             </div>
             <div className='offer'>
-                <h2>Ofertas imperdibles</h2>
+                <h3>Ofertas imperdibles</h3>
                 <Ul type="none">
                     {products.map((product) => (
                     <li key={product.name}>
@@ -38,6 +38,7 @@ const Home = () => {
 }
 const Ul = styled.ul`
     display: flex;
-    overflow: hidden;
+    overflow-x: scroll;
+    overflow-y: hidden;
     `;
 export default Home;

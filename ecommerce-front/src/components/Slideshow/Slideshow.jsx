@@ -8,6 +8,11 @@ import { React,useRef} from "react"
 
 const Slideshow = () => {
     const slideshow = useRef(null);
+
+    setInterval(() => {
+        nextSlide();
+    }, 3000);
+
     const nextSlide = () => {
         //compruebo que haya slides siguientes
         if (slideshow.current.children.length > 0) {
@@ -85,6 +90,7 @@ const Slideshow = () => {
 }
 const Container = styled.div`
     position: relative;
+    margin-bottom: calc(var(--padding-increment) * 4);
 
 `;
 const SlideshowContainer = styled.div`
