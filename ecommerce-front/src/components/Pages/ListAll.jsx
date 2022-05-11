@@ -14,7 +14,7 @@ export default class ListAll extends Component {
                 <ul type="none">
                 {products.map((product) => (
                     <li key={product.name} >
-                        <CategoryProduct image={product.image} name={product.name} property={product.property} />
+                        <CategoryProduct image={product.image} name={product.name} property={product.property} valoration={product.valoration} />
                     </li>
                 ))}
                 </ul>

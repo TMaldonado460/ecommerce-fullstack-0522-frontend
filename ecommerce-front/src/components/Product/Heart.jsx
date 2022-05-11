@@ -1,28 +1,29 @@
 import {FaHeart,FaRegHeart} from "react-icons/fa";
 import styled from "styled-components";
 
+let thisSize = 30;
 
-const Heart = ({ isLiked, onClick }) => {
+const Heart = ({ isLiked, onClick, size }) => {
     const Icon = isLiked ? FaHeart : FaRegHeart;
+    size && (thisSize = size);
+
     return (
-        <Button onClick={onClick}>  
+        <Button onClick={onClick} style={{ fontSize: thisSize/1.5, width: thisSize, height: thisSize }}>  
             <Icon className="heart" />
         </Button>
     );
 }
 
+
 const Button = styled.button`
     background-color: white;
     border: none;
     color: var(--color-white);
-    width: 30px;
-    height: 30px;
 
     top: 0px;
     right: 10px;
     position: absolute;
 
-    font-size: 16px;
     font-weight: 500;
     border-radius: 100%;
     margin: 5px;
@@ -33,6 +34,7 @@ const Button = styled.button`
     align-items: center;
     justify-content: center;
     `;
+
 
 
 export default Heart;

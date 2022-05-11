@@ -1,6 +1,7 @@
 import {useState} from "react";
-import {FaHeart,FaRegHeart,FaStar} from "react-icons/fa";
+import {FaHeart,FaRegHeart,FaStar, FaStarHalfAlt, FaRegStar} from "react-icons/fa";
 import styled from "styled-components";
+import Heart from "./Heart";
 
 const CategoryProduct = (props) =>{
     const [isFavorite, setIsFavorite] = useState(false);
@@ -8,21 +9,34 @@ const CategoryProduct = (props) =>{
         setIsFavorite(!isFavorite);
     }
     
+    const amountStars = () => {
+        let stars = [];
+        for(let i = 0; i < props.valoration; i++){
+            stars.push(<FaStar key={i}/>);
+        }
+        if(props.valoration - Math.floor(props.valoration) > 0){
+            stars.pop();
+            stars.push(<FaStarHalfAlt key={stars.length}/>);
+        } 
+        for(let i = stars.length; i < 5; i++){
+            stars.push(<FaRegStar key={stars.length}/>);
+        }
+        return stars;
+    }
+
     return (
         <Product>
             <ProductImg>
                 <img src={props.image} alt="img"/>
-                <button onClick={handleClick}>
-                    {isFavorite ?<FaHeart className="heart" /> : <FaRegHeart className="heart" />}
-                </button>
+                <Heart isLiked={isFavorite} onClick={handleClick} size={45} />
             </ProductImg>
-            <div>
+            <Propiedades>
                 <Subtitulo>{props.name}</Subtitulo>
                 <Star>
-                    <FaStar/><FaStar/><FaStar/><FaStar/><FaStar/>
+                    {amountStars()} ({props.valoration})
                 </Star>
                 <Description>{props.property[0]}</Description>
-            </div>
+            </Propiedades>
             <ButtonCont>
                 <Button>Add +</Button>
                 <Button>Info</Button>
@@ -30,13 +44,24 @@ const CategoryProduct = (props) =>{
         </Product>
     );
 }
+
+const Propiedades = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 calc(var(--padding-increment) * 4);
+    `;
+
 const Product = styled.div`
     font-family: Roboto;
     max-width: 380px;
+    box-shadow: 0 2px 10px rgb(0 0 0 / 20%);
+    margin-bottom: calc(var(--padding-increment) * 5);
     `;
 const ProductImg = styled.div`
-    margin: 5px;
     position: relative;
+    margin: 0;
     img{
         width: 100%;
     }
@@ -59,6 +84,7 @@ const Star = styled.div`
     `;
 const ButtonCont = styled.div`
     display: flex;
+    padding: 0 calc(var(--padding-increment) * 4) calc(var(--padding-increment) * 6);
     align-items: center;
     `;
 const Button = styled.button`
