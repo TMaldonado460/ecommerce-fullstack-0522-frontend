@@ -33,6 +33,7 @@ const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100vh;
 `;
 const IMG = styled.img`
     width: 154.05px;
