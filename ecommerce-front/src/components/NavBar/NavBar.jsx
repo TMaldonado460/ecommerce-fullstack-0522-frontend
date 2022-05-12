@@ -22,7 +22,8 @@ const NavBar = () => {
                 </NavMenu> 
                 <Titulo>Proyecto Vacaciones</Titulo>
                 <Ul>
-                    <FaCartArrowDown className="iconstop"/> <FaUserCircle className="iconstop"/>
+                    <Link className="path-Bar" to="/login"><FaUserCircle className="iconstop"/></Link>
+                    <Link className="path-Bar" to="/"><FaCartArrowDown className="iconstop"/></Link>
                 </Ul>
             </Nav>
             <Filler />

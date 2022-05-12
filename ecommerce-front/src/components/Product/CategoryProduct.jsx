@@ -1,5 +1,5 @@
 import {useState} from "react";
-import {FaHeart,FaRegHeart,FaStar, FaStarHalfAlt, FaRegStar} from "react-icons/fa";
+import {FaStar, FaStarHalfAlt, FaRegStar} from "react-icons/fa";
 import styled from "styled-components";
 import Heart from "./Heart";
 

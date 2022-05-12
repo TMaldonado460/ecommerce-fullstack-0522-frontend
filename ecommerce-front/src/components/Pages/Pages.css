@@ -48,9 +48,6 @@
     padding: 0 var(--gutters-size);
 }
 
-.path-Bar{
-    
-}
 .icon{
     font-size: 20px;
 }
@@ -58,22 +55,3 @@
 .heart {
     color:var(--color-primary);
 }
-
-/* .heart{
-    color: 'red'; 
-    font-size: 35px;
-    cursor: 'pointer';
-    top: 10px;
-    right: 10px;
-    position: absolute;
-    color: var(--color-contrast-2);
-}
-.heart2{
-    color: 'red'; 
-    font-size: 20px;
-    cursor: 'pointer';
-    top: 5px;
-    right: 5px;
-    position: absolute;
-    color: var(--color-contrast-2);
-} */
